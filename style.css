@@ -7,33 +7,52 @@
     --color3: #000000;
 
     --font-padrao: 'Montserrat', sans-serif;
-    --font-loren: 'Merriweather', serif;
-    
+    --font-loren: 'Merriweather', serif;    
 }
 
-
 .img {
-    background: url("img/foto-p.png") center/cover no-repeat border-box;
-    /* background-image: url(img/foto-p.png); */
-    width: 120vw;
-    height: 120vh;
+    background: url("img/foto-p.png") center/cover;
+    /* width: 98.7vw; */
+    /* height: 120vh; */
+    height: 550px;
     position: relative;
+    display: block;
+    padding: 0;
+}
+
+.space-login {
+    background-color: var(--color2);
+    height: 53px;
+    width: 86px;
+    left: 1000px;
+    top: 80px;
+    border-radius: 26.5px;
+    position: relative;
+    z-index: 2;
+    right: 122px;  
+}
+
+.login-img {
+    height: 32px;
+    width: 32px;
+    /* left: 2rem; */
+    top: 0px;
+    border-radius: 0px;
+    padding: 0.60rem;
+    right: -30px;
 }
 
 .text-area {
-    /* font-family: ; */
     position: absolute;
     background-color: var(--color2);
     color: var(--color3);
-    height: 400%;
-    top: 500px;
+    width: 430px;
+    height: 250px;
+    top: 335px;
     left: 40px;
-    width: 250px;
-    padding: 100px;
-   height: 537px;
-    width: 400px;
-    left: 63px;
-    top: 384px;
+    padding: 90px;
+    margin: auto;
+    /* border: 1px solid violet; */
 }
 
 .letter {
@@ -43,18 +62,37 @@
 .text {
     font-family:var(--font-loren);
     /* position: relative; */
+}
+
+.first-loren {
+    font-family: var(--font-padrao);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+
 
 }
 
 .button {
     background: var(--color1);
     color: var(--color2);
-    size: 18px;
-    line-height: 22,5px;
-    width: 72px;
-    height: 23px;
-    top: 21px;
-    left: 101px;
-    /* padding: 10px; */
-    /* position: absolute ; */
+    font: var(--font-loren);
+    line-height: 30,17px;
+    size: 24px;
+    height: 55px;
+    width: 230px;
+    left: 120px;
+    top: 781px;
+    padding: 12px, 24px, 12px, 16px;
+}
+
+.img-globo {
+    right: 50px;
+}
+
+.title {
+    /* border: 1px solid yellow; */
+    
 }
