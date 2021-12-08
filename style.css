@@ -42,13 +42,26 @@
     right: -30px;
 }
 
+.title {
+    /* font-family: var(--font-padrao); */
+    font-family: ' Merriweather';
+    font-size: 18px;
+    /* font-style: ; */
+    /* font-weight: 900; */
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* padding-top:0px; */
+    /* margin-top: 50px; */
+}
+
 .text-area {
     position: absolute;
     background-color: var(--color2);
     color: var(--color3);
     width: 430px;
-    height: 250px;
-    top: 335px;
+    height: 240px;
+    top: 300px;
     left: 40px;
     padding: 90px;
     margin: auto;
@@ -65,17 +78,17 @@
 }
 
 .first-loren {
-    font-family: var(--font-padrao);
-    font-size: 20px;
+    font-family: var(--font-loren);
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
-
-
 }
 
 .button {
+    display: flex;
+    align-items: center;
     background: var(--color1);
     color: var(--color2);
     font: var(--font-loren);
@@ -89,7 +102,9 @@
 }
 
 .img-globo {
-    right: 50px;
+    height: 24px;
+    width: 24px;
+    
 }
 
 .title {
