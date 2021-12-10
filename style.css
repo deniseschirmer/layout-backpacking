@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 :root {
     --color1: #F78065;
@@ -9,6 +10,22 @@
     --font-padrao: 'Montserrat', sans-serif;
     --font-loren: 'Merriweather', serif;    
 }
+
+  header {
+    margin: 0;
+  }
+  
+  
+  body {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  img {
+      /* max-width: 100%; */
+      height: auto;
+      display: block;
+    }
 
 .img {
     background: url("img/foto-p.png") center/cover;
@@ -24,57 +41,56 @@
     background-color: var(--color2);
     height: 53px;
     width: 86px;
-    left: 1000px;
-    top: 80px;
+    left: 1234px;
+    top: 30px;
     border-radius: 26.5px;
     position: relative;
     z-index: 2;
-    right: 122px;  
+    right: 122px;
+    border: var(--color2);
 }
 
 .login-img {
+    position: absolute;
+    display: inline-block;
     height: 32px;
     width: 32px;
-    /* left: 2rem; */
-    top: 0px;
-    border-radius: 0px;
+    left: 2rem;
     padding: 0.60rem;
-    right: -30px;
+    right: -30px;  
 }
 
-.title {
-    /* font-family: var(--font-padrao); */
-    font-family: ' Merriweather';
-    font-size: 18px;
-    /* font-style: ; */
-    /* font-weight: 900; */
-    line-height: 49px;
-    letter-spacing: 0em;
-    text-align: left;
-    /* padding-top:0px; */
-    /* margin-top: 50px; */
+.sinal {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.text-area {
+.box {
     position: absolute;
     background-color: var(--color2);
     color: var(--color3);
     width: 430px;
-    height: 240px;
-    top: 300px;
+    height: 300px;
+    margin-top: 290px;
     left: 40px;
-    padding: 90px;
-    margin: auto;
-    /* border: 1px solid violet; */
+    padding: 60px 60px 60px 45px;
+}
+
+.text-area {    
+    font-family: ' Merriweather';
+    font-size: 18px;
+    line-height: 49px;
+    text-align: left;
+}
+
+.title {
+    margin: 0;
 }
 
 .letter {
     color: var(--color1);
-}
-
-.text {
-    font-family:var(--font-loren);
-    /* position: relative; */
 }
 
 .first-loren {
@@ -84,30 +100,37 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
+    /* margin: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button {
     display: flex;
+    justify-content: center;
     align-items: center;
     background: var(--color1);
     color: var(--color2);
     font: var(--font-loren);
-    line-height: 30,17px;
     size: 24px;
     height: 55px;
     width: 230px;
     left: 120px;
     top: 781px;
     padding: 12px, 24px, 12px, 16px;
+    align-items: center;
+    border: var(--color1);
 }
 
 .img-globo {
     height: 24px;
     width: 24px;
-    
+   display: flex;
+   margin: 8px;
 }
 
 .title {
     /* border: 1px solid yellow; */
+    /* margin-left: ; */
     
 }
