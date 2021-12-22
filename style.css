@@ -16,10 +16,16 @@
     background: url("img/foto-p.png") center/cover;
     max-width: 1440px;
     height: 650px;
-    position: relative;
+    /* position: relative; */
     display: block;
     padding: 0;
     box-sizing: border-box;
+    /* display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px; */
+    display: flex;
+    width: 100%;
+
 }
 
 .backdrop__login {
@@ -57,18 +63,20 @@
     color: var(--color3);
     width: 741px;
     height: 537px;
-    margin-top: 290px;
+    /* margin-top: px; */
     left: 63px;
-    padding: 60px 60px 60px 45px;
-    /* top: 384px; */
+    /* padding: 60px 60px 60px 45px; */
+    top: 384px;
+    text-shadow: darkgray;
+    border: 1px solid purple;
 }
-
+/* 
 .box__area {    
     font-family: var(--font-stardard);
     font-size: 18px;
     line-height: 49px;
     text-align: left;
-}
+} */
 
 .box__title {
     margin: 0;
@@ -76,6 +84,7 @@
     font-size: 39px;
     line-height: 49,02px;
     top: 480px;
+    padding: 96px 156px 294px 64px;
 }
 
 
@@ -86,20 +95,24 @@
 
 .box__loren {
     font-family: var(--font-main);
-    color: var(--color3);
-    size: 20px;
+    display: flex;
+    justify-content: left;                            
+    /* color: var(--color3); */
+    font-size: 20px;
+    width: 515px;
+    height: 96px;
+    top: 656px;
+    /* left: 127px; */
     font-style: normal;
-    font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: left;
-    vertical-align: top;
+    padding: 272px 162px 169px 64px;
+    border: 1px solid red;
+    padding: 29px;
+   
 }
 
 
-.button {
+.box__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,26 +127,26 @@
     padding: 12px, 24px, 12px, 16px;
     align-items: center;
     border: var(--color1);
+    margin-top: 29px;
 }
 
-.button__img {
+.box__img {
     height: 24px;
     width: 24px;
    display: flex;
    margin-right: 8px;
 }
 
-.button__text {
+.box__text {
     font-family: var(--font-main);
     width: 72px;
     height: 23px;
     top: 21px;
-    left: 101px;
-
+    left: 101px; 
 }
 
 .box__title {
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     /* margin-left: ; */
     font-family: var(--font-stardard);
     font-weight: 700;
