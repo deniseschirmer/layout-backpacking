@@ -15,9 +15,10 @@
 
 .backdrop {
     background: url("img/foto-p.png") center/cover;
+    display: flex;
     width: 1440px;
     height: 650px;
-    display: flex;
+    
 }
 
 .backdrop__cube{
@@ -29,6 +30,7 @@
 
 
 .backdrop__login {
+    position: absolute;
     background-color: var(--color2);
     height: 53px;
     width: 86px;
@@ -37,17 +39,16 @@
     margin-right: 122px;
     margin-bottom: 567px;
     border-radius: 26.5px;
-    position: absolute;
     border: var(--color2);
 }
 
 .backdrop__img {
     position: absolute;
-    height: 32px;
     width: 32px;
-    left: 2rem;
+    height: 32px;
+    margin-left: 2rem;
     padding: 0.60rem;
-    right: -30px; 
+    margin-right: -30px; 
 }
 
 .backdrop__icon {
@@ -59,96 +60,81 @@
 
 .box {
     position: absolute;
-    background-color: var(--color2);
-    color: var(--color3);
     width: 741px;
     height: 537px;
+    background-color: var(--color2);
+    color: var(--color3);
     margin-left: 63px;
     margin-top: 384px;
-    border: 1px solid purple;
 }
 
 .box__title {
+    position: relative;
     width: 521px;
-    height: 147px;
-    margin: 0;
+    height: 147px;    
     font-family: var(--font-stardard);
     font-weight: 700;
     font-size: 39px;
-    line-height: 49,02px;
-    top: 480px;
-    padding-right: 156px;
-    padding-left: 64px;
-    padding-bottom: 294px;
-    padding-top: 96px;
+    line-height: normal;
+    margin-top: 96px;
+    margin-left: 64px;
+    margin-bottom: 29px;
 }
-
 
 .box__letter {
     color: var(--color1);
 }
 
-
 .box__loren {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
     justify-content: left;   
     font-weight: 500;           
     font-size: 20px;
     width: 515px;
     height: 96px;
-    margin-top: 656px;
-    margin-left: 127px;
+    margin-top: 0px;
+    margin-left: 64px;
     font-style: normal;
     line-height: 24px;
-    border: 1px solid red;
-    padding: 29px;
-    margin-left: 64px;
+    opacity: 60%;
 }
 
-
 .box__button {
+    background: var(--color1);
+    color: var(--color2);
+    size: 18px;
+    width: 250px;
+    height: 65px;
+    margin-left: 64px;
+    margin-top: 29px;
+    padding: 12px, 24px, 12px, 16px;
+    border: var(--color1);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--color1);
-    color: var(--color2);
-    size: 24px;
-    height: 55px;
-    width: 226px;
-    margin-left: 125px;
-    margin-top: 781px;
-    padding: 12px, 24px, 12px, 16px;
-    border: var(--color1);
 }
 
-.box__img {
-    height: 24px;
+.box__img {   
     width: 24px;
-   display: flex;
-   margin-right: 8px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20.5px;
+    margin-bottom: 20.5px;
+    margin-left: 69px;
 }
 
-.box__text {
-    font-family: var(--font-main);
+.box__text {    
     width: 72px;
-    height: 23px;
-    margin-top: 21px;
-    margin-left: 101px; 
-}
-
-.box__title {
-    /* border: 1px solid yellow; */
-    margin-bottom: 96px;
-    margin-left: 64px;
-    margin-right: 156px;
-    margin-top: 96px;
-    font-family: var(--font-stardard);
-    font-weight: 700;
-    size: 39px;
-    line-height: 49,02px;
+    height: 23px;      
+    font-family: var(--font-main);
     font-style: bold;
-    padding: 29px;
-    
+    font-size: 18px;
+    color: var(--color2);    
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 77px;
+    margin-left: 8px; 
 }
