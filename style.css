@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root {
     --color1: #F78065;
@@ -14,12 +15,9 @@
 
 .backdrop {
     background: url("img/foto-p.png") center/cover;
-    /* max-width: 1440px; */
     width: 1440px;
     height: 650px;
-    /* padding: 0; */
     display: flex;
-    /* border: 1px solid red; */
 }
 
 .backdrop__cube{
@@ -27,7 +25,6 @@
     margin-left: 122px;
     margin-bottom: 578px;
     margin-right: 1286px;
-    /* border: 1px solid blueviolet; */
 }
 
 
@@ -42,18 +39,15 @@
     border-radius: 26.5px;
     position: absolute;
     border: var(--color2);
-    /* border: 1px solid blue; */
 }
 
 .backdrop__img {
     position: absolute;
-    /* display: inline-block; */
     height: 32px;
     width: 32px;
     left: 2rem;
     padding: 0.60rem;
     right: -30px; 
-    /* border: 1px solid paleturquoise */
 }
 
 .backdrop__icon {
@@ -75,12 +69,18 @@
 }
 
 .box__title {
+    width: 521px;
+    height: 147px;
     margin: 0;
     font-family: var(--font-stardard);
+    font-weight: 700;
     font-size: 39px;
     line-height: 49,02px;
     top: 480px;
-    padding: 96px 156px 294px 64px;
+    padding-right: 156px;
+    padding-left: 64px;
+    padding-bottom: 294px;
+    padding-top: 96px;
 }
 
 
@@ -90,22 +90,21 @@
 
 
 .box__loren {
-    font-family: var(--font-main);
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: left;              
-    /* color: var(--color3); */
+    justify-content: left;   
+    font-weight: 500;           
     font-size: 20px;
     width: 515px;
     height: 96px;
-    top: 656px;
-    left: 127px;
+    margin-top: 656px;
+    margin-left: 127px;
     font-style: normal;
     line-height: 24px;
-    /* padding: 272px 162px 169px 64px; */
     border: 1px solid red;
     padding: 29px;
     margin-left: 64px;
-   
 }
 
 
@@ -115,7 +114,6 @@
     align-items: center;
     background: var(--color1);
     color: var(--color2);
-    /* font: var(--font-stardard); */
     size: 24px;
     height: 55px;
     width: 226px;
@@ -141,13 +139,16 @@
 }
 
 .box__title {
-    border: 1px solid yellow;
-    /* margin-left: ; */
+    /* border: 1px solid yellow; */
+    margin-bottom: 96px;
+    margin-left: 64px;
+    margin-right: 156px;
+    margin-top: 96px;
     font-family: var(--font-stardard);
     font-weight: 700;
     size: 39px;
     line-height: 49,02px;
     font-style: bold;
-    padding: 69px;
+    padding: 29px;
     
 }
