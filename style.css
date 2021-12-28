@@ -13,23 +13,14 @@
 }
 
 
-.backdrop {
-    background: url("img/foto-p.png") center/cover;
-    display: flex;
-    width: 1440px;
-    height: 650px;
-    
-}
-
-.backdrop__cube{
+.header__cube {
+    position: absolute;
     margin-top: 40px;
-    margin-left: 122px;
-    margin-bottom: 578px;
-    margin-right: 1286px;
+    margin-left: 122px;    
 }
 
 
-.backdrop__login {
+.header__login {
     position: absolute;
     background-color: var(--color2);
     height: 53px;
@@ -42,7 +33,7 @@
     border: var(--color2);
 }
 
-.backdrop__img {
+.header__img {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -51,90 +42,75 @@
     margin-right: -30px; 
 }
 
-.backdrop__icon {
+.header__icon {
     display: inline-block;
-    position: absolute;
     margin-left: 20px;
     margin-top: 20px;
 }
 
+.section-top {
+    background: url("img/foto-p.png") center/cover;
+    display: flex;
+    width: 1440px;
+    height: 650px;
+}
+
 .box {
-    position: absolute;
     width: 741px;
     height: 537px;
-    background-color: var(--color2);
-    color: var(--color3);
+    background-color: var(--color2);    
     margin-left: 63px;
     margin-top: 384px;
 }
 
 .box__title {
-    position: relative;
-    width: 521px;
-    height: 147px;    
+    width: 521px;    
     font-family: var(--font-stardard);
     font-weight: 700;
     font-size: 39px;
     line-height: normal;
     margin-top: 96px;
     margin-left: 64px;
-    margin-bottom: 29px;
+    margin-bottom: 29px;    
 }
 
-.box__letter {
+.box--letter {
     color: var(--color1);
 }
 
-.box__loren {
-    position: relative;
+.box__text {
     font-family: 'Montserrat', sans-serif;
-    justify-content: left;   
-    font-weight: 500;           
     font-size: 20px;
-    width: 515px;
-    height: 96px;
-    margin-top: 0px;
-    margin-left: 64px;
-    font-style: normal;
+    width: 515px;    
+    margin-left: 64px;    
     line-height: 24px;
     opacity: 60%;
 }
 
 .box__button {
     background: var(--color1);
-    color: var(--color2);
-    size: 18px;
+    color: var(--color2);    
     width: 250px;
     height: 65px;
     margin-left: 64px;
     margin-top: 29px;
-    padding: 12px, 24px, 12px, 16px;
     border: var(--color1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;    
 }
 
 .box__img {   
     width: 24px;
     height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20.5px;
-    margin-bottom: 20.5px;
+    display: flex;    
+    margin-top: 20.5px;    
     margin-left: 69px;
 }
 
-.box__text {    
-    width: 72px;
-    height: 23px;      
-    font-family: var(--font-main);
-    font-style: bold;
+.box__button__text {    
+    width: 72px;    
+    font-family: var(--font-main);    
     font-size: 18px;
     color: var(--color2);    
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 77px;
+    margin-top: 21px;        
     margin-left: 8px; 
 }
