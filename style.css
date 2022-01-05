@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     width: 1440px;
-    height: 0;
+    position: fixed;
 }
 
 .header-login__cube {
