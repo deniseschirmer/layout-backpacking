@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 
 :root {
     --color1: #F78065;
     --color2: #FFFFFF;
     --color3: #000000;
+    --color4: #CCCCCC;
+    --color5: #3F3D56;
+    --color6: #848484; 
+
+
 
     --font-main: 'Montserrat', sans-serif;
     --font-stardard: 'Merriweather', serif;    
@@ -17,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     width: 1440px;
-    position: fixed;
+    position: absolute;
 }
 
 .header-login__cube {
@@ -26,7 +31,6 @@
     margin-top: 40px;
     margin-left: 122px;    
 }
-
 
 .header__login {
     display: flex;
@@ -38,7 +42,6 @@
     border-radius: 26.5px;
     border: var(--color2);
 }
-
 
 .header-login__icon {
     display: inline-block;
@@ -56,7 +59,6 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-
 
 .section-top {
     background: url("img/foto-p.png") center/cover;
@@ -125,4 +127,69 @@
     color: var(--color2);    
     margin-top: 21px;        
     margin-left: 8px; 
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    margin-top: 300px;
+}
+
+.container__camper {
+    width: 386px;
+    height: 460px;
+    margin-top: 50px;
+    margin-left: 119px;
+}
+
+.container-camper__text {
+    margin-top: 4rem;
+} 
+
+.container__title {
+    font-family: var(--font-stardard);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30.17px; 
+}
+
+.container__text {
+   font-family: var(--font-main);
+   font-weight: 500;
+   line-height: 19.5px;
+   font-size: 16px;
+   color:var(--color6);
+   margin-top: 18px;
+}
+
+.container__text-bold {
+   font-family: var(--font-main);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 21.94px;
+   color: var(--color1);
+   margin-top: 18px;
+}
+
+.container__map {
+    margin-left: 41px;
+    margin-top: 50px;
+    width: 386px ;
+    height: 450px;
+}
+
+.container-map__text {
+    margin-top: 64px;
+}
+
+.container__destination {
+    width: 386px ;
+    height: 450px;
+    margin-left: 41px;
+    margin-top: 50px;
+}
+
+.container-destination__text {
+    margin-top: 64px;
 }
