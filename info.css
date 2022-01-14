@@ -1,24 +1,17 @@
 
 .info {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 100%;
     height: 550px;
-    margin-top: 300px;
-    /* border: 1px solid blueviolet; */
 }
 
 .info__camper {
-    display: flex;
     width: 386px;
     height: 460px;
-    flex-direction: column;
 }
 
 .info-camper__image {
-   display: flex;
-   flex-direction: column;
    width: 247.5px;
    height: 180px;
 }
@@ -26,8 +19,7 @@
 .info-camper__text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end ;
-    flex-direction: column;
+    justify-content: space-between;
     margin-top: 4rem;
     width: 386px;
     height: 211px;
@@ -46,23 +38,16 @@
    line-height: 19.5px;
    font-size: 16px;
    color:var(--color6);
+   margin-top: 18px;
 }
-
-/* .info__text--orange {
-   font-family: var(--font-main);
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 21.94px;
-   color: var(--color1);
-   margin-top: 18px; */
-
 
 .text {
    font-family: var(--font-main);
    font-weight: 700;
    font-size: 18px;
    line-height: 21.94px;
-   /* margin-top: 18px; */
+   margin-top: 18px;
+   
 }
 
 .text--orange {
@@ -71,38 +56,33 @@
    font-family: var(--font-main);
    font-size: 18px;
    line-height: 21.94px;
-
-    
 }
 
 .info__map {
-   display: flex;
    width: 386px;
    height: 224px;
-   flex-direction: column;
 }
 
 .info-map__image{
-   display: flex;
-   flex-direction: column;
    width: 222.82px;
    height: 180px; 
 }
 
 .info-map__text {
-    margin-top: 64px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between  ;
+    margin-top: 4rem;
+    width: 386px;
+    height: 224px;
 }
 
 .info__destination {
-   display: flex;
    width: 386px;
    height: 224px;
-   flex-direction: column;
 }
 
 .info-destination__image {
-   display: flex;
-   flex-direction: column;
    width: 252.89px;
    height: 180px;
 }
