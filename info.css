@@ -2,8 +2,6 @@
 .section-info {
     display: flex;
     justify-content: space-between; 
-    width: 100%;
-    padding-right: 81px;
     padding-left: 119px;
     margin-top: 384px;
   
@@ -13,6 +11,7 @@
    display: flex;
    flex-direction: column;
    width: 386px;
+   margin-right: 10px;
  } 
 
 .info-image__place {
