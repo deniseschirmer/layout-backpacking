@@ -1,10 +1,10 @@
 
 .section-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; 
     width: 100%;
-    margin-right: 81px;
-    margin-left: 85px;
+    padding-right: 81px;
+    padding-left: 119px;
     margin-top: 384px;
   
 }
