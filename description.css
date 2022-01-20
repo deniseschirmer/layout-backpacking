@@ -1,5 +1,6 @@
 .section-description {
     display: flex;
+    flex-direction: column;
     padding-left: 100px;
     margin-top: 253px;
 
@@ -7,39 +8,39 @@
 
 .description__title {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     width: 758px;
-    flex-direction:column ;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 36px;
     line-height: 45.25px; 
-    margin-bottom: 18px ;
-    margin-top: 1px;
     color: var(black);
+  
 }
 
 .description {
    display: flex;
-   flex-direction: column;
    width: 386px;
    margin-right: 10px;
    margin-bottom: 200px;
+   display: flex;
+   align-content: flex-end;
 }
 
 .description-image__checks {
     width: 32px;
     height: 32px;
-    display: flex;  
 }
 
 .description__container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin-top: 2rem;
 }
 
 .descrition__sub-title {
+   margin-bottom: 18px;
    font-family: var(--merriweather);
    font-weight: 700;
    font-size: 22px;
@@ -55,11 +56,9 @@
 .description-image__frame {
     width: 32px;
     height: 32px;
-    display: flex;   
 }
 
 .description-image__calendar {
     width: 32px;
     height: 32px;
-    display: flex; 
 }
