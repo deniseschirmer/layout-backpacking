@@ -7,24 +7,24 @@
 }
 
 .description__title {
-    display: flex;
-    flex-direction: column;
     width: 758px;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 36px;
     line-height: 45.25px; 
     color: var(black);
-  
+}
+
+.description__box-block {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 102px;
+    margin-top: 114px;
 }
 
 .description {
-   display: flex;
    width: 386px;
-   margin-right: 10px;
-   margin-bottom: 200px;
-   display: flex;
-   align-content: flex-end;
+   margin-right: 46px;
 }
 
 .description-image__checks {
@@ -33,14 +33,13 @@
 }
 
 .description__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     margin-top: 2rem;
 }
 
 .descrition__sub-title {
-   margin-bottom: 18px;
+   width: 256px;
+   margin-bottom: 31px;
+   margin-top: 69.33px;
    font-family: var(--merriweather);
    font-weight: 700;
    font-size: 22px;
@@ -50,7 +49,6 @@
 .description-image__spell {
     width: 32px;
     height: 32px;
-    display: flex;   
 }
 
 .description-image__frame {
