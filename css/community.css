@@ -85,7 +85,6 @@
 .community__sub-title {
     width: 225px;
     margin-top: 24px;
-    margin-bottom: 8px;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 24px;
@@ -95,7 +94,8 @@
 .community__text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
 }
 .community__container {
