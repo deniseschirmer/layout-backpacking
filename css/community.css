@@ -67,17 +67,17 @@
     padding-right: 100px;
 }
 
-.community-image__rome {
+.community__image-rome {
     width: 230px;
     height: 418px;
 }
 
-.community-image__florence {
+.community__image-florence {
    width: 230px;
    height: 418px;
 }
 
-.community-image__venice {
+.community__image-venice {
     width: 230px;
     height: 418px;
 }
@@ -92,8 +92,6 @@
 }
 
 .community__text {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 10px;
     margin-top: 10px;
     
