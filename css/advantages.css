@@ -1,0 +1,70 @@
+.section-advantages {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-top: 232px;
+}
+
+.advantages__title {
+    width: 284px;
+    font-family: var(--merriweather);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45.25px; 
+    color: var(black);
+}
+
+.advantages__box-blocks {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    margin-top: 108px;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    width: 386px;
+    margin-right: 15px;
+ }
+
+ .advantages__image-doublesquare {
+    width: 32px;
+    height: 32px;
+ }
+
+ .advantages__image-books {
+    width: 32px;
+    height: 32px;
+ }
+ 
+.advantages__image-magnifying {
+    width: 32px;
+    height: 32px;
+}
+
+.advantages__container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 66.67px;
+}
+
+.advantages__sub-title {
+    width: 386px;
+    margin-bottom: 24px; 
+    font-family: var(--merriweather);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27.65px;
+ }
+
+ .advantages_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
