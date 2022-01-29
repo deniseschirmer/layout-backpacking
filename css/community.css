@@ -40,7 +40,7 @@
     display: flex; 
 }
 
-.community-button__img {
+.community__button-img {
     width: 24px;
     height: 24px;
     display: flex;    
@@ -48,7 +48,7 @@
     margin-left: 83.5px;
 }
 
-.community-button__text {
+.community__button-text {
     width: 47px;    
     font-family: var(--montserrat);    
     font-weight: 700;
