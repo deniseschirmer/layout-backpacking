@@ -10,7 +10,6 @@
 .footer__block {
     display: flex;
     justify-content: space-between;
-  
 }
 
 .footer__block-titles {
@@ -66,7 +65,6 @@
     color: var(black);
 }
 
-
 .footer__navigation {
     display: flex;
     padding-bottom: 63px;
@@ -74,11 +72,11 @@
 }
 
 .vertical-row {
-    /* border-style: solid;
-    border-top-style:;
-    border-color: gray;
-    border: 1px center;
-    width: 1237px; */
+    width: 1237px;
+    text-align: center;
+    border: 1px solid #000000;
+    opacity: 20%;
+    margin-top: 85px
 }
 
 .footer__navigation-text {
