@@ -3,7 +3,6 @@
     flex-direction: column;
     background: var(--light);
     padding-left: 103px;
-    padding-top: 96px;
     padding-right: 110px;
     margin-top: 251px;
     padding-bottom: 63px;
@@ -13,7 +12,6 @@
     display: flex;
     margin-top: 96px;
     margin-bottom: 85px;
-    margin-right: 100px;
 }
 
 .footer__block-titles {
@@ -91,7 +89,6 @@
 .footer__navigation-list {
    display: flex;
    justify-content: space-between;
-   padding-right: 103px;
 }
 
 .footer__text {
