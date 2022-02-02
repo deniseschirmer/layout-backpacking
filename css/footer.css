@@ -17,10 +17,10 @@
 .footer__block-titles {
     display: flex;
     flex-direction: column;
+    width: 304px;
 }
 
 .footer__sub-title {
-    width: 155px;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 24px;
@@ -30,7 +30,6 @@
 
 .footer__title {
     margin-top: 16px;
-    width: 304px;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 48px;
@@ -48,7 +47,6 @@
 
 .footer__sub-titles {
     margin-bottom: 24px;
-    width: 195px;
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 18px;
@@ -71,8 +69,6 @@
 }
 
 .vertical-row {
-    width: 100%;
-    text-align: center;
     border: 1px solid #000000;
     opacity: 20%;
     margin-bottom: 28px;
@@ -88,11 +84,10 @@
 
 .footer__navigation-list {
    display: flex;
-   justify-content: space-between;
 }
 
 .footer__text {
-    padding-right: 48px;
+    padding-left: 48px;
     font-family: var(--montserrat);
     font-weight: 400;
     font-size: 14px;
