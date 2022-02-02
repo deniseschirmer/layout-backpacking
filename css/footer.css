@@ -25,7 +25,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 30.17px; 
-    color: var(black);
+    color: var(--black);
 }
 
 .footer__title {
@@ -34,7 +34,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 60.34px; 
-    color: var(black);
+    color: var(--black);
 }
 
 .footer__box {
@@ -51,7 +51,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 22.63px; 
-    color: var(black);
+    color: var(--black);
 }
 
 .footer__list {
@@ -60,7 +60,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17.07px; 
-    color: var(black);
+    color: var(--black);
 }
 
 .footer__navigation {
@@ -79,7 +79,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17.07px; 
-    color: var(black);
+    color: var(--black);
 }
 
 .footer__navigation-list {
@@ -92,5 +92,5 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17.07px; 
-    color: var(black);
+    color: var(--black);
 }
