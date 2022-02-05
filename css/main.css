@@ -64,8 +64,8 @@
 }
 
 .box {
+    position: absolute;
     width: 741px;
-    height: 537px;
     background-color: var(--white);    
     margin-left: 63px;
     margin-top: 384px;
@@ -75,7 +75,6 @@
 }
 
 .box__title {
-    width: 521px;    
     font-family: var(--merriweather);
     font-weight: 700;
     font-size: 39px;
@@ -90,7 +89,6 @@
 .box__text {
     font-family: var(--montserrat);
     font-size: 20px;
-    width: 515px;    
     line-height: 24px;
     opacity: 60%;
 }
@@ -102,22 +100,19 @@
     height: 65px;
     margin-top: 29px;
     border: var(--orange);
-    display: flex;    
-}
-
-.box-button__img {   
-    width: 24px;
-    height: 24px;
-    display: flex;    
+    display: flex;  
     padding-top: 20.5px;    
     padding-left: 69px;
 }
 
+.box-button__img {   
+    width: 24px;
+}
+
 .box-button__text {    
-    width: 72px;    
-    font-family: var(--montserrat);    
+    font-family: var(--montserrat);   
+    font-weight: 700;
     font-size: 18px;
     color: var(--white);    
-    margin-top: 21px;        
     margin-left: 8px; 
 }
