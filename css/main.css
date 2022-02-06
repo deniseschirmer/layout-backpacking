@@ -67,8 +67,8 @@
     position: absolute;
     width: 741px;
     background-color: var(--white);    
-    margin-left: 63px;
-    margin-top: 384px;
+    left: 63px;
+    top: 384px;
     box-sizing: border-box;
     padding: 96px 156px 75px 62px;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
