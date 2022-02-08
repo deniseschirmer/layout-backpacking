@@ -17,8 +17,6 @@
     --montserrat: 'Montserrat', sans-serif;
     --merriweather: 'Merriweather', serif;    
 }
-    
-
 
 .header {
     display: flex;
@@ -55,7 +53,7 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-
+ 
 .section-top {
     background: url("../img/foto-p.png") center/cover;
     display: flex;
@@ -66,7 +64,7 @@
 .box {
     position: absolute;
     width: 741px;
-    background-color: var(--white);    
+    background-color: var(--white);   
     left: 63px;
     top: 384px;
     box-sizing: border-box;
@@ -96,13 +94,11 @@
 .box__button {
     background: var(--orange);
     color: var(--white);    
-    width: 250px;
     height: 65px;
     margin-top: 29px;
     border: var(--orange);
     display: flex;  
-    padding-top: 20.5px;    
-    padding-left: 69px;
+    padding: 20.5px 69px 20.5px 69px;
 }
 
 .box-button__img {   
@@ -116,4 +112,37 @@
     font-size: 18px;
     color: var(--white);    
     margin-left: 8px; 
+}
+
+@media (max-width: 992px) {
+	.header {
+        padding-left: 40px;
+        padding-right: 40px;
+	}
+    
+    .section-top {
+        height: 400px;
+    }
+    .box { 
+        left: 0px;
+        width: 100%;
+        padding: 60px 40px;
+    }
+    .box__title {
+        font-size: 25px;
+      
+    }
+    .box__text {
+        font-size: 15px;
+    }
+    .box__button {
+        padding: 21px 50px;
+    }
+    .box-button__img {   
+        width: 20px;
+        height: 20px;
+    }
+    .box-button__text {
+        font-size: 15px;
+    }
 }
