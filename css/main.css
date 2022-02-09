@@ -17,12 +17,6 @@
     --montserrat: 'Montserrat', sans-serif;
     --merriweather: 'Merriweather', serif; 
     
-
-    --small-screen: 576px;
-    --medium-screen: 768px;
-    --large-screen: 992px;
-    --x-large-screen: 1200px;
-    --x-x-large-screen: 1400px;
 }
 
 .header {
