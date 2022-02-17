@@ -108,7 +108,7 @@
      padding: 40px;
   }
   .footer__box {
-      padding-left: 20px;
+      margin-left: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -118,20 +118,25 @@
     }
     .footer__block {
       flex-wrap: wrap;
+      padding: 0;
     }
     .footer__block-titles {
         width: 562px;
     }
     .footer__box{
         padding-left: 0;
+        margin-left: 0;
     }
     .footer__container-lists {
         margin-bottom: 10px;
+    }
+    .vertical-row {
+        margin-top: 10px;
     }
     .footer__navigation {
         display: block;
     }
     .footer__navigation-list {
-        visibility: hidden;
+        display: none;
     }
 }
