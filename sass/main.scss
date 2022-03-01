@@ -19,6 +19,12 @@
     
 }
 
+@mixin media-max-width($width) {
+    @media (max-width: $width){
+      @content;  
+    }
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -26,34 +32,41 @@
     position: absolute;
     padding: 40px 122px 30px 122px;
     box-sizing: border-box;
+
+    @include media-max-width(992px){
+        padding-left: 40px;
+        padding-right: 40px;   
+    } 
+
+    &__cube {
+        width: 32px;
+        height: 32px;  
+    }
+    
+    &-login {
+        display: flex;
+        background-color: var(--white);
+        height: 53px;
+        width: 86px;
+        border-radius: 26.5px;
+        border: var(--white);
+
+        &__icon {
+            margin-left: 20px;
+            margin-top: 15.58px;
+            padding-top: 9px;
+            height: 6px;
+        }
+
+        
+        &__img {
+            height: 32px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
 }
 
-.header-login__cube {
-    width: 32px;
-    height: 32px;  
-}
-
-.header__login {
-    display: flex;
-    background-color: var(--white);
-    height: 53px;
-    width: 86px;
-    border-radius: 26.5px;
-    border: var(--white);
-}
-
-.header-login__icon {
-    margin-left: 20px;
-    margin-top: 15.58px;
-    padding-top: 9px;
-    height: 6px;
-}
-
-.header-login__img {
-    height: 32px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
 .section-top__main-image {
     background: url("../img/main-img.png") center/cover;
@@ -116,11 +129,6 @@
 }
 
 @media (max-width: 992px ) {
-	.header {
-        padding-left: 40px;
-        padding-right: 40px;
-	}
-   
     .section-top__main-image {
         height: 400px;
     }
