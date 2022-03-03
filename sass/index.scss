@@ -1,5 +1,9 @@
+@import "_fonts";
+@import "_mixins.scss";
+@import "_variables.scss";
 @import "reset.scss";
-@import "main.scss";
+@import "header.scss";
+@import "section-top.scss";
 @import "info.scss";
 @import "description";
 @import "advantages.scss";
