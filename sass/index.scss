@@ -1,12 +1,13 @@
 @import "_fonts";
-@import "_mixins.scss";
-@import "_variables.scss";
-@import "reset.scss";
-@import "header.scss";
-@import "section-top.scss";
-@import "info.scss";
+@import "_mixins";
+@import "_variables";
+@import "reset";
+@import "_global";
+@import "header";
+@import "section-top";
+@import "info";
 @import "description";
-@import "advantages.scss";
-@import "community.scss";
-@import "footer.scss";
+@import "advantages";
+@import "community";
+@import "footer";
 

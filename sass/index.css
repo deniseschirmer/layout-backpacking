@@ -44,6 +44,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 19.5px;
+  font-size: 16px;
+  color: #848484; }
+  .text--bold {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    margin-top: 18px; }
+  .text--orange {
+    color: #F78065; }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -191,107 +206,74 @@ table {
         line-height: 30.17px;
         margin-bottom: 18px; }
 
-.text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  line-height: 19.5px;
-  font-size: 16px;
-  color: #848484; }
-
-.text--bold {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21.94px;
-  margin-top: 18px; }
-
-.text--orange {
-  color: #F78065; }
-
 .section-description {
   display: flex;
   flex-direction: column;
   padding-left: 100px;
   padding-right: 102px;
   margin-top: 253px; }
+  @media (max-width: 992px) {
+    .section-description {
+      margin-top: 130px;
+      padding-left: 40px;
+      padding-right: 40px; } }
+  .section-description .description__title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45.25px;
+    color: #000000; }
+    @media (max-width: 992px) {
+      .section-description .description__title {
+        font-size: 25px; } }
+    @media (max-width: 768px) {
+      .section-description .description__title {
+        text-align: center; } }
+  .section-description .description__box-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px; }
+    @media (max-width: 992px) {
+      .section-description .description__box-blocks {
+        margin-top: 40px; } }
+    @media (max-width: 768px) {
+      .section-description .description__box-blocks {
+        flex-direction: column;
+        align-items: center; } }
+    .section-description .description__box-blocks .description {
+      display: flex;
+      flex-direction: column;
+      width: 275px;
+      margin-right: 15px;
+      margin-top: 60px; }
+      @media (max-width: 576px) {
+        .section-description .description__box-blocks .description {
+          width: 200px; } }
+      .section-description .description__box-blocks .description-image__checks {
+        width: 32px;
+        height: 32px; }
+      .section-description .description__box-blocks .description__container-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin-top: 66.33px; }
+      .section-description .description__box-blocks .description__sub-title {
+        margin-bottom: 31px;
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27.65px; }
+      .section-description .description__box-blocks .description__text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+      .section-description .description__box-blocks .description-image__spell, .section-description .description__box-blocks .description-image__frame, .section-description .description__box-blocks .description-image__calendar {
+        width: 32px;
+        height: 32px; }
 
-.description__title {
-  font-family: var(--merriweather);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45.25px;
-  color: var(--black); }
-
-.description__box-blocks {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 40px; }
-
-.description {
-  display: flex;
-  flex-direction: column;
-  width: 275px;
-  margin-right: 15px;
-  margin-top: 60px; }
-
-.description-image__checks {
-  width: 32px;
-  height: 32px; }
-
-.description__container-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  margin-top: 66.33px; }
-
-.descrition__sub-title {
-  margin-bottom: 31px;
-  font-family: var(--merriweather);
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27.65px; }
-
-.description__text {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.description-image__spell {
-  width: 32px;
-  height: 32px; }
-
-.description-image__frame {
-  width: 32px;
-  height: 32px; }
-
-.description-image__calendar {
-  width: 32px;
-  height: 32px; }
-
-@media (max-width: 992px) {
-  .section-description {
-    margin-top: 130px;
-    padding-left: 40px;
-    padding-right: 40px; }
-
-  .description__title {
-    font-size: 25px; }
-
-  .description__box-blocks {
-    margin-top: 40px; } }
-@media (max-width: 768px) {
-  .description__title {
-    text-align: center; }
-
-  .description__box-blocks {
-    flex-direction: column;
-    align-items: center; } }
-@media (max-width: 576px) {
-  .description {
-    width: 200px; } }
 .section-advantages {
   display: flex;
   flex-direction: column;
