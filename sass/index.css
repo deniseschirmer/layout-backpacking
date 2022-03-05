@@ -274,6 +274,111 @@ table {
         width: 32px;
         height: 32px; }
 
+.section-community {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 100px;
+  margin-top: 263px; }
+  @media (max-width: 992px) {
+    .section-community {
+      padding-left: 40px;
+      padding-right: 40px; } }
+  @media (max-width: 768px) {
+    .section-community {
+      margin-top: 130px; } }
+  .section-community .community__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media (max-width: 1400px) {
+      .section-community .community__block {
+        flex-direction: column; } }
+    .section-community .community__block .community__box {
+      width: 325px;
+      display: flex;
+      flex-direction: column;
+      padding-right: 127px;
+      margin-top: 60px;
+      background-color: #FFFFFF; }
+      @media (max-width: 1400px) {
+        .section-community .community__block .community__box {
+          width: auto; } }
+      @media (max-width: 992px) {
+        .section-community .community__block .community__box {
+          padding-right: 0; } }
+      @media (max-width: 768px) {
+        .section-community .community__block .community__box {
+          text-align: center;
+          align-items: center; } }
+      .section-community .community__block .community__box .community__title {
+        margin-bottom: 32px;
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45.25px;
+        color: #000000; }
+        @media (max-width: 992px) {
+          .section-community .community__block .community__box .community__title {
+            font-size: 25px; } }
+      .section-community .community__block .community__box .community-button {
+        background: #F78065;
+        color: #FFFFFF;
+        width: 250px;
+        height: 65px;
+        margin-top: 29px;
+        border: #F78065;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media (max-width: 768px) {
+          .section-community .community__block .community__box .community-button {
+            width: 180px; } }
+        .section-community .community__block .community__box .community-button__button-img {
+          width: 24px;
+          height: 24px; }
+        .section-community .community__block .community__box .community-button .community__button-text {
+          width: 47px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 700;
+          font-size: 18px;
+          color: #FFFFFF;
+          line-height: 22.5px; }
+    .section-community .community__block .community__box-blocks {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-right: 100px; }
+      @media (max-width: 768px) {
+        .section-community .community__block .community__box-blocks {
+          flex-direction: column;
+          align-items: center;
+          padding-right: 0; } }
+      .section-community .community__block .community__box-blocks__image-rome {
+        width: 230px;
+        height: 418px; }
+      .section-community .community__block .community__box-blocks__image-florence {
+        width: 230px;
+        height: 418px; }
+      .section-community .community__block .community__box-blocks__image-venice {
+        width: 230px;
+        height: 418px; }
+      .section-community .community__block .community__box-blocks .community__sub-title {
+        width: 225px;
+        margin-top: 24px;
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30.17px; }
+      .section-community .community__block .community__box-blocks .community__text {
+        margin-bottom: 10px;
+        margin-top: 10px; }
+    .section-community .community__block .community__container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px; }
+
 .section-advantages {
   display: flex;
   flex-direction: column;
@@ -355,123 +460,6 @@ table {
 @media (max-width: 576px) {
   .advantages {
     width: 200px; } }
-.section-community {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-left: 100px;
-  margin-top: 263px; }
-
-.community__block {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-.community__box {
-  width: 325px;
-  display: flex;
-  flex-direction: column;
-  padding-right: 127px;
-  background-color: var(--white); }
-
-.community__title {
-  margin-bottom: 32px;
-  font-family: var(--merriweather);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45.25px;
-  color: var(--black); }
-
-.community-button {
-  background: var(--orange);
-  color: var(--white);
-  width: 250px;
-  height: 65px;
-  margin-top: 29px;
-  border: var(--orange);
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.community__button-img {
-  width: 24px;
-  height: 24px; }
-
-.community__button-text {
-  width: 47px;
-  font-family: var(--montserrat);
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--white);
-  line-height: 22.5px; }
-
-.community__box-blocks {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-right: 100px; }
-
-.community__image-rome {
-  width: 230px;
-  height: 418px; }
-
-.community__image-florence {
-  width: 230px;
-  height: 418px; }
-
-.community__image-venice {
-  width: 230px;
-  height: 418px; }
-
-.community__sub-title {
-  width: 225px;
-  margin-top: 24px;
-  font-family: var(--merriweather);
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30.17px; }
-
-.community__text {
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-.community__container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 60px; }
-
-@media (max-width: 1400px) {
-  .community__block {
-    flex-direction: column; }
-
-  .community__box {
-    width: auto; } }
-@media (max-width: 992px) {
-  .section-community {
-    padding-left: 40px;
-    padding-right: 40px; }
-
-  .community__title {
-    font-size: 25px; }
-
-  .community__box {
-    padding-right: 0; } }
-@media (max-width: 768px) {
-  .section-community {
-    margin-top: 130px; }
-
-  .community__box {
-    text-align: center;
-    align-items: center; }
-
-  .community__box-blocks {
-    flex-direction: column;
-    align-items: center;
-    padding-right: 0; }
-
-  .community-button {
-    width: 180px; } }
 .footer {
   display: flex;
   flex-direction: column;
