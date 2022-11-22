@@ -1,0 +1,23 @@
+.text {
+    font-family: $font-montserrat;
+    font-weight: 500;
+    line-height: 19.5px;
+    font-size: 16px;
+    color:  map-get($colors, dark-gray); 
+
+    &--bold {
+        font-family: $font-montserrat;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.94px;
+        margin-top: 18px;
+    }
+ 
+     &--orange {
+        color: map-get($colors, orange) ;
+    }
+}    
+ 
+ 
+ 
+ 

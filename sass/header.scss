@@ -1,0 +1,44 @@
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    padding: 40px 122px 30px 122px;
+    box-sizing: border-box;
+
+    @include media-max-width($breakpoint-large){
+        padding-left: 40px;
+        padding-right: 40px;   
+    } 
+
+    &__cube {
+        width: 32px;
+        height: 32px;  
+    }
+    
+    &-login {
+        display: flex;
+        background-color: map-get($colors, white);
+        height: 53px;
+        width: 86px;
+        border-radius: 26.5px;
+        border: map-get($colors, white);
+
+        &__icon {
+            margin-left: 20px;
+            margin-top: 15.58px;
+            padding-top: 9px;
+            height: 6px;
+        }
+
+        &__img {
+            height: 32px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+}

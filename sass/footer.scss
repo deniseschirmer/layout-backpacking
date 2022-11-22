@@ -1,0 +1,151 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: map-get($colors, light );
+    padding-left: 103px;
+    padding-right: 110px;
+    margin-top: 251px;
+    padding-bottom: 63px;
+    padding-top: 48px;
+
+    @include media-max-width($breakpoint-large){
+        margin-top: 150px; 
+        padding: 40px;
+    }
+
+    &__block {
+        display: flex;
+        padding-top: 48px;
+        padding-bottom: 85px;
+
+        @include media-max-width($breakpoint-medium){
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        .footer__block-titles {
+            display: flex;
+            flex-direction: column;
+            width: 304px;
+
+            @include media-max-width($breakpoint-medium){
+                width: 562px;
+            }
+
+            .footer__sub-title {
+                font-family: $font-merriweather;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30.17px; 
+                color: map-get($colors, black );
+            }
+
+            .footer__title {
+                margin-top: 16px;
+                font-family: $font-merriweather;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 60.34px; 
+                color: map-get($colors, black ) ;
+
+                @include media-max-width($breakpoint-medium){
+                    font-size: 38px;
+                    margin-bottom: 30px;
+                }
+            }        
+        }
+        
+        .footer__box {
+            display: flex;
+            justify-content: space-between;
+            flex-grow: 1;
+            padding-left: 157px;
+            flex-wrap: wrap;
+
+            @include media-max-width($breakpoint-large){
+              margin-left: 20px;
+            }
+
+            @include media-max-width($breakpoint-medium){
+                padding-left: 0;
+                margin-left: 0;
+            }
+
+            .footer__container-lists {
+                @include media-max-width($breakpoint-x-large){
+                    margin-right: 15px;
+                    margin-bottom: 30px;
+                }
+
+                @include media-max-width($breakpoint-medium){
+                    margin-bottom: 10px;
+                }
+            }
+
+            .footer__sub-titles {
+                margin-bottom: 24px;
+                font-family: $font-merriweather;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22.63px; 
+                color: map-get($colors, black );
+            }
+                
+            .footer__list {
+                margin-bottom: 24px;
+                font-family: $font-montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17.07px; 
+                color: map-get($colors, black );
+            }
+        }
+    }
+    
+    .vertical-row {
+        border: 1px solid  map-get($colors, black );
+        opacity: 20%;
+        margin-bottom: 28px;
+
+        
+        @include media-max-width($breakpoint-medium){
+            margin-top: 10px;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+
+        
+        @include media-max-width($breakpoint-medium){
+            display: block;
+        }
+
+        .footer__navigation-text {
+            font-family: $font-montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17.07px; 
+            color: map-get($colors, black );
+        }
+
+        .footer__navigation-list {
+            display: flex;
+
+            
+            @include media-max-width($breakpoint-medium){
+              display: none;
+            }
+
+            .footer__text {
+                padding-left: 48px;
+                font-family: $font-montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17.07px; 
+                color:  map-get($colors, black );
+            }
+        }
+    }   
+}

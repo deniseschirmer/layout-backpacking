@@ -1,0 +1,96 @@
+.section-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 102px; 
+    margin-top: 253px;
+
+    @include media-max-width($breakpoint-large){
+        margin-top: 130px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .description__title {
+        font-family: $font-merriweather;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45.25px; 
+        color:  map-get($colors, black);
+
+        @include media-max-width($breakpoint-large){
+            font-size: 25px;
+        }
+
+        @include media-max-width($breakpoint-medium){
+            text-align: center;
+        }
+    }
+    
+    .description__box-blocks {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+        
+        // @include media-max-width($breakpoint-large){
+        //     margin-top: 40px;
+        // }
+
+        @include media-max-width($breakpoint-medium){
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            width: 275px;
+            margin-right: 15px;
+            margin-top: 60px;
+
+            @include media-max-width($breakpoint-small){
+                width: 200px;
+            }
+            
+            &-image__checks {
+                width: 32px;
+                height: 32px;
+            }
+
+            &__container-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+                margin-top: 66.33px;
+            }
+
+            &__sub-title {
+                margin-bottom: 31px;
+                font-family: $font-merriweather;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27.65px;
+            }
+
+            &__text {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            &-image {
+                
+                &__spell,
+                &__frame,
+                &__calendar  {
+                    width: 32px;
+                    height: 32px;
+                }
+            } 
+        }
+    }  
+}

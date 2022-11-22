@@ -1,0 +1,64 @@
+
+.section-info {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 119px;
+    margin-top: -130px;
+    flex-wrap: wrap;
+
+
+    @include media-max-width($breakpoint-large){
+      margin-top: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    @include media-max-width($breakpoint-medium){
+      justify-content: space-around;
+    }
+  
+   .info {
+      display: flex;
+      flex-direction: column;
+      width: 386px;
+      margin-right: 10px;
+      margin-top: 60px;
+
+      @include media-max-width($breakpoint-medium){
+         width: 300px;
+       }
+
+       &-image__place {
+         width: 247.5px;
+         height: 180px;
+      }
+            
+      &-image__map {
+         width: 222.82px;
+         height: 180px; 
+      }
+      
+      &-image__destination {
+         width: 252.89px;
+         height: 180px;
+      }
+
+      &-text__container {
+         display: flex;
+         flex-direction: column;
+         margin-top: 64px;
+
+         @include media-max-width($breakpoint-large){
+            margin-top: 32px;
+         }
+
+         .info__title {
+            font-family: $font-merriweather;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30.17px; 
+            margin-bottom: 18px ;
+         }  
+      } 
+   } 
+}
