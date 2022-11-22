@@ -34,9 +34,9 @@
         margin-top: 40px;
 
         
-        @include media-max-width($breakpoint-large){
-            margin-top: 40px;
-        }
+        // @include media-max-width($breakpoint-large){
+        //     margin-top: 40px;
+        // }
 
         @include media-max-width($breakpoint-medium){
             flex-direction: column;
